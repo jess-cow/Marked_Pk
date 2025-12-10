@@ -509,7 +509,7 @@ class Mark(object):
         
         error = np.sqrt(self.my_pinv(fisher_cov))
         self.error=error
-        self.plot_mark()
+        # self.plot_mark()
         
             
             
